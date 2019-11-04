@@ -10,6 +10,18 @@ html{
 	color: 3C3C3C;
 	}
 	
+h1{
+	text-transform:uppercase; 
+	font-size:2rem;
+	color:var(--saColor);
+}
+
+h2{
+	text-transform:uppercase; 
+	font-size:1.8rem;
+	color:pink;
+}
+	
 body{
 	display: flex;
 	flex-direction: column;
@@ -18,8 +30,6 @@ body{
 
 header{
 	width: 100%;
-	background-color: yellow;
-	padding-bottom: 5rem;
 	}
 	
 header nav{
@@ -58,6 +68,47 @@ nav ul a{
 
 #logo img{
 	width:100%;
+}
+
+
+#info{
+	display:flex;
+	flex-direction:column;
+	border: solid 2px black; 
+	width:auto;
+	justify-content:flex-end;
+	background-color: yellow;
+	padding-bottom: 5rem;
+	align-items:flex-end;
+	padding-right:3rem;
+}
+
+#info div{
+	width:20%;
+	margin-top:2rem;
+	padding:1rem;
+	text-align:center;
+}
+
+
+#siege{
+	background-color: white;
+	opacity:0.8;
+	width:15%;
+}
+
+#siege h1{
+	font-size:1.6rem;
+}
+
+#social{
+	background-color: black;
+	color:white;
+}
+
+#don{
+	background-color:var(--saColor);
+	color:white;
 }
 		
 
